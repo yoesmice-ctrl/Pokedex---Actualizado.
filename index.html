@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="pokedex">
+
+        <h1>Pokédex 📖.</h1>
+
+        <label for="pokemons">Selecciona un Pokémon.</label>
+
+        <select id="pokemons">
+        <option value="">Seleccione un Pokémon.</option>
+        </select>
+
+        <div id="pokemon-info">
+
+        <h2 id="pokemon-name"></h2>
+
+        <img id="pokemon-image" src="" alt="Pokémon">
+
+        <p id="pokemonTipo" class="tipo-oculto"></p>
+
+        <div class="info-extra">
+        <p><strong>Número:</strong> <span id="pokemon-id"></span></p>
+        <p><strong>Altura:</strong> <span id="pokemon-height"></span></p>
+        <p><strong>Peso:</strong> <span id="pokemon-weight"></span></p>
+        </div>
+
+        <h3>Tipos.</h3>
+        <ul id="pokemon-types"></ul>
+
+        <h3>Estadísticas.</h3>
+        <ul id="pokemon-stats"></ul>
+
+        <h3>Habilidades.</h3>
+        <ul id="pokemon-abilities"></ul>
+
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
